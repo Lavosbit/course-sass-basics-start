@@ -230,13 +230,6 @@ p {
   padding-top: .5rem;
 }
 
-.main {
-  max-width: 1320px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 2rem;
-}
-
 .reasons {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 2.25rem;
@@ -415,6 +408,13 @@ footer h3 {
   font-size: .95rem;
   font-weight: 500;
   text-decoration: none;
+}
+
+.main {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2rem;
 }
 
 /*# sourceMappingURL=index.8c1c22dc.css.map */
