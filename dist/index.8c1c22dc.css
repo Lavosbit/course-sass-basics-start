@@ -1,63 +1,4 @@
 @import "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap";
-.btn-red {
-  color: #838ea4;
-  background-color: #ff595e;
-  border: 0;
-  border-radius: 4px;
-  padding: 1rem 1.25rem;
-  font-size: .975rem;
-  font-weight: 500;
-  text-decoration: none;
-  transition: all .2s ease-in;
-  color: #fff !important;
-}
-
-.btn-red:hover {
-  opacity: .9;
-}
-
-.btn-blue {
-  color: #838ea4;
-  color: #fff;
-  background-color: #0a2463;
-  border: 0;
-  border-radius: 4px;
-  padding: 1rem 1.25rem;
-  font-size: .975rem;
-  font-weight: 500;
-  text-decoration: none;
-  transition: all .2s ease-in;
-}
-
-.btn-link {
-  color: #838ea4;
-  background: none;
-  border: 0;
-  padding: 1rem 1.25rem;
-  font-size: .975rem;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.btn-link:hover {
-  color: #ff595e;
-}
-
-.btn-icon {
-  color: #838ea4;
-  width: 50px;
-  height: 50px;
-  border: 0;
-  border-radius: 100%;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem 1.25rem;
-  font-size: .975rem;
-  font-weight: 500;
-  text-decoration: none;
-  display: flex;
-}
-
 *, :before, :after {
   box-sizing: border-box;
 }
@@ -141,6 +82,65 @@ p {
 
 .small {
   font-size: .95rem;
+}
+
+.btn-red {
+  color: #838ea4;
+  background-color: green;
+  border: 0;
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  font-size: .975rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .2s ease-in;
+  color: #fff !important;
+}
+
+.btn-red:hover {
+  opacity: .9;
+}
+
+.btn-blue {
+  color: #838ea4;
+  color: #fff;
+  background-color: #0a2463;
+  border: 0;
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  font-size: .975rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .2s ease-in;
+}
+
+.btn-link {
+  color: #838ea4;
+  background: none;
+  border: 0;
+  padding: 1rem 1.25rem;
+  font-size: .975rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: #ff595e;
+}
+
+.btn-icon {
+  color: #838ea4;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  font-size: .975rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
 }
 
 .navbar {

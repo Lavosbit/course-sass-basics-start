@@ -1,8 +1,21 @@
-@use './buttons';
-@use './reset';
-@use './typography';
-@use './navbar';
-@use './hero';
-@use './reasons';
-@use './footer';
-@use './layout';
+/* Table of Contents
+--------------------------------
+-- base imports imports
+-- components imports
+-- layout imports
+**/
+
+
+/* base imports */
+@use './base/reset';
+@use './base/typography';
+
+/* components imports */
+@use './components/buttons';
+@use './components/navbar';
+@use './components/hero';
+@use './components/reasons';
+
+/* layout imports */
+@use './layout/footer';
+@use './layout/layout';
